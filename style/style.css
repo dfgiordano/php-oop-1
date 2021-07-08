@@ -1,11 +1,14 @@
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
 header {
     height: 120px;
     background-color: black;
 }
 h1 {
-    border: 2px solid white;
+    border: 2px solid #3b8d99;
     border-radius: 10px;
-    color: white;
+    color: #2c5364;
 }
 main {
     height: calc(100vh - 200px);
@@ -17,18 +20,52 @@ main {
     padding: 5px;
     background-color: black;
     border-radius: 10px;
+    border: 1px solid #3b8d99;
     color: white;
 }
 img {
     display: block;
-    height: 150px;
-    width: 150px;
+    margin: auto;
+    padding: 2px;
+    height: 180px;
+    width: 180px;
+    border: 2px solid white;
 }
 .card:hover {
     opacity: 0.8;
     cursor: pointer;
 }
+.cover {
+    margin: auto;
+}
+h3,h4,h5 {
+    margin-top: 5px;
+    font-size: 22px;
+    padding: 1px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
 footer {
     height: 80px;
+    line-height: 80px;
     background-color: black;
+}
+ul {
+    justify-content: space-around;
+}
+li {
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+}
+a {
+    text-decoration: none;
+    color: #2c5364;
+}
+a:hover {
+    color: white;
 }

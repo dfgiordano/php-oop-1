@@ -29,9 +29,9 @@
     <body>
         <?php include __DIR__ . "/./partials/header.php" ?>
     
-        <main class="container d-flex f-wrap justify-content-between margin-auto">
+        <main class="container d-flex f-wrap justify-content-between">
             <div class="card d-flex justify-content-center">
-                <div class="cover position-relative m-auto">
+                <div class="cover position-relative">
                     <img src="https://e.snmc.io/i/300/s/3b8c8987b9ae8b3642ea3f278349a321/4883433" alt="la_grande-bellezza">
                     <h3 class="align-self-center"> <?= "Titolo : " . $bastardi_senza_gloria -> title; ?> </h3>
                     <h4> <?= "Genere : " . $bastardi_senza_gloria -> genre; ?> </h4>
@@ -71,7 +71,6 @@
                 </div>
             </div>
         </main>
-        
         <?php include __DIR__ . "/./partials/footer.php" ?>
     </body>
 </html>
