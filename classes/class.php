@@ -4,9 +4,8 @@
         public $title;
         public $genre;
         public $year;
-        public $language;
+        public $language = " ";
         public $runtime;
-        public $plot;
 
         //costruttore
 
@@ -17,7 +16,7 @@
             $this->runtime = $runtime;
         }
 
-        // funzione
+        // metodi
 
         public function getLanguage() {
             if ($language = "en") {

@@ -3,7 +3,6 @@
 
     $bastardi_senza_gloria = new Movie("Bastardi senza Gloria","Guerra/Azione",2009,"148 min");
     $bastardi_senza_gloria->language = "en";
-    $bastardi_senza_gloria->plot = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos, ad dolore facilis accusantium voluptatum pariatur ullam earum rem non. Facere officiis ullam ad laboriosam consequuntur voluptatum vitae aut, aliquam iure, consectetur sapiente quibusdam velit libero! ";
 
     $hooligans = new Movie("Hooligans","Drammatico/Giallo",2005,"109 min");
     $hooligans -> language = "en";
@@ -47,7 +46,6 @@
                     <h4> <?= "Genere : " . $hooligans -> genre; ?> </h4>
                     <h5> <?= "Anno di produzione : " . $hooligans -> year; ?> </h5>
                     <h5> <?= "Durata : " . $hooligans -> runtime; ?> </h5>
-                    <h6> <?= "Lingua : " . $hooligans -> getLanguage() ; ?>  </h6>
                 </div>
             </div>
             <div class="card">
